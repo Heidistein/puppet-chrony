@@ -123,6 +123,7 @@ class { 'chrony':
 ```
 
 ### Enable chrony-wait.service
+
 RedHat and Suse provide a default disabled `chrony-wait.service` to block the `time-sync.target`
 until node is synchronised.
 
@@ -149,7 +150,7 @@ The module has been tested on:
 
 - Arch Linux
 - Red Hat
-- Debian 9, 10
+- Debian 10, 11
 - Ubuntu 18.04, 20.04
 - Suse 12.3
 - Gentoo 2.7
